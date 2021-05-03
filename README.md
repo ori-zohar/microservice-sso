@@ -1,5 +1,13 @@
 # OneLogin OpenId Connect Authorization Code Flow Sample
 
+# PAY ATTENTION! THE RIGHT WAY IS TO RUN THE PROJECT WITH DOCKER
+
+From the command line run
+
+```
+> docker-compose up -d
+```
+
 The sample is an [Express.js](https://expressjs.com/) app that uses
 [Passport.js](http://www.passportjs.org/) and the [Passport-OpenIdConnect](https://github.com/jaredhanson/passport-openidconnect)
 module for managing user authentication.
